@@ -7,5 +7,5 @@ from django.contrib import admin
 from web.views import Login
 
 urlpatterns = [
-    url(r'^index/', Login),
+    url(r'^login/', Login),
 ]
